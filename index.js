@@ -7,4 +7,7 @@ res.send("Hello world!");
 app.get('/about',function(req,res){
 res.send("About page");
 });
+app.get('/contact',function(req,res){
+res.send("Contact");
+});
 app.listen(3000);
